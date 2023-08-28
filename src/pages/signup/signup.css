@@ -1,0 +1,201 @@
+.heading{
+    text-align: center;
+    font-size: medium;
+    margin-top: 1vh;
+}
+
+.form-container{
+    background-image: url("../../app/ecommerce-web-store-hand-drawn-illustration_107791-10966.avif");
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-signin-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-feilds-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.input-field{
+    outline: none;
+    margin-top: 2vh;
+    width: 72vw;
+    height: 20px;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.btn-container{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.signin-btn{
+    
+    border: 1px solid rgb(21, 21, 21);
+    height: 30px;
+    width: 80px;
+    font-size: small;
+    background: rgb(55, 204, 55);
+    color: aliceblue;
+    border-radius: 5px;
+}
+.signin-btn:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: rgb(55, 204, 55);
+}
+.register-btn{
+    border: 1px solid rgb(21, 21, 21);
+    padding: 3.5px;
+    
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    background: blue;
+    color: aliceblue;
+}
+p:hover{
+    cursor: pointer;
+}
+input{
+    border: none;
+    border-bottom: 2px solid blueviolet;
+}
+
+@media only screen and (min-width: 600px) {
+    .heading{
+        text-align: center;
+        font-size: medium;
+        margin-top: 1vh;
+    }
+
+    .form-container{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .register-signin-form{
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+    }
+    
+    .input-feilds-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .input-field{
+        margin-top: 2vh;
+        width: 45vw;
+        font-size: medium;
+    }
+
+    .btn-container{
+        margin-top: 2vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .signin-btn{
+        font-size: medium;
+        background: rgb(55, 204, 55);
+    }
+    .register-btn{
+        border: 1px solid rgb(21, 21, 21);
+        padding: 3.5px;
+        background: blue;
+        color: aliceblue;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .heading{
+        text-align: center;
+        font-size: large;
+        margin-top: 1vh;
+    }
+
+    .input-field{
+        margin-top: 2vh;
+        width: 38vw;
+        font-size: medium;
+    }
+
+    .signin-btn{
+        font-size: medium;
+        background: rgb(55, 204, 55);
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .heading{
+        text-align: center;
+        font-size: larger;
+        margin-top: 1vh;
+    }
+
+    .input-field{
+        margin-top: 2vh;
+        width: 35vw;
+        font-size: medium;
+    }
+
+    .signin-btn{
+        font-size: medium;
+        background: rgb(55, 204, 55);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .heading{
+        text-align: center;
+        font-size: x-large;
+        margin-top: 1vh;
+    }
+
+    .input-field{
+        margin-top: 2vh;
+        width: 22vw;
+        font-size: medium;
+    }
+
+    .signin-btn{
+        font-size: medium;
+        background: rgb(55, 204, 55);
+    }
+    .register-btn:hover{
+        cursor: pointer;
+        background-color: aliceblue;
+        color: blue;
+    }
+}
