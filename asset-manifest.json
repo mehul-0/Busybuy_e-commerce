@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Busybuy_e-commerce/static/css/main.25a9fafe.css",
+    "main.js": "/Busybuy_e-commerce/static/js/main.de21944b.js",
+    "static/media/ecommerce-web-store-hand-drawn-illustration_107791-10966.avif": "/Busybuy_e-commerce/static/media/ecommerce-web-store-hand-drawn-illustration_107791-10966.2c26f83bbb56ce2c4059.avif",
+    "index.html": "/Busybuy_e-commerce/index.html",
+    "main.25a9fafe.css.map": "/Busybuy_e-commerce/static/css/main.25a9fafe.css.map",
+    "main.de21944b.js.map": "/Busybuy_e-commerce/static/js/main.de21944b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25a9fafe.css",
+    "static/js/main.de21944b.js"
+  ]
+}
